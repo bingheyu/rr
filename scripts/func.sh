@@ -10,7 +10,7 @@
 
 [ -n "${1}" ] && export TOKEN="${1}"
 
-REPO="https://api.github.com/repos/RROrg"
+REPO="https://api.github.com/repos/bingheyu"
 
 # Convert po2mo
 # $1 path
@@ -333,7 +333,7 @@ function createvmx() {
 config.version = "8"
 virtualHW.version = "17"
 displayName = "${VMNAME}"
-annotation = "https://github.com/RROrg/rr"
+annotation = "前哥"
 guestOS = "ubuntu-64"
 firmware = "efi"
 mks.enable3d = "TRUE"
